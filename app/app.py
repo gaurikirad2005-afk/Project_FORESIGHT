@@ -572,13 +572,19 @@ st.sidebar.markdown("## 📊 Project FORESIGHT")
 st.sidebar.caption("AI-Powered Retail Sales Intelligence")
 st.sidebar.markdown("---")
 
-st.sidebar.markdown("""
-<a class="nav-link" href="#dashboard-top">🏠 &nbsp; Dashboard</a>
-<a class="nav-link" href="#world-map">🌍 &nbsp; Geography</a>
-<a class="nav-link" href="#analytics">📈 &nbsp; Analytics</a>
-<a class="nav-link" href="#insights">💡 &nbsp; Insights</a>
-<a class="nav-link" href="#data-explorer">🗃️ &nbsp; Reports</a>
-""", unsafe_allow_html=True)
+# Sidebar navigation
+st.sidebar.markdown("### Navigation")
+
+st.sidebar.markdown(
+    """
+    <a class="nav-link" href="#dashboard-top">🏠 &nbsp; Dashboard</a>
+    <a class="nav-link" href="#world-map">🌍 &nbsp; Geography</a>
+    <a class="nav-link" href="#insights">💡 &nbsp; Insights</a>
+    <a class="nav-link" href="#analytics">📈 &nbsp; Analytics</a>
+    <a class="nav-link" href="#data-explorer">🗃️ &nbsp; Reports</a>
+    """,
+    unsafe_allow_html=True
+)
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### ⚡ Quick Stats")
@@ -643,7 +649,7 @@ with col_title:
         f'<div style="display:flex; align-items:center; gap:14px;">'
         f'<div class="logo-mark">📊</div>'
         f'<div>'
-        f'<div class="top-bar-greeting">Welcome back, Yash 👋</div>'
+        f'<div class="top-bar-greeting">Welcome back, Gauri 👋</div>'
         f'<p class="top-bar-title">Project FORESIGHT</p>'
         f'<p class="top-bar-subtitle">Executive Retail Sales Intelligence &amp; Revenue Analytics</p>'
         f'</div></div>'
